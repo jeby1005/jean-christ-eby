@@ -157,6 +157,28 @@ article.main-section-info {
     font-size: 18px;
 }
 
+.download-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #4473c5;
+    color: white;
+    font-weight: bold;
+    height: 35px;
+    position: fixed;
+    border-radius: 10px;
+    bottom: 25px;
+    right: 25px;
+    box-shadow:3px 4px #a9a2a2;
+    border: none;
+    padding: 0px 10px;
+}
+
+.download-button i {
+    display: none;
+}
+
 @media screen and (max-width:500px) {
     main {
         flex-direction: column;
@@ -189,5 +211,23 @@ article.main-section-info {
     .side-section-info .img-container img {
         display: none;
     }
+    .download-button{
+        background-color:#032468;
+        border-radius: 100%;
+        font-size: 30px;
+        width: 70px;
+        height: 70px;
+        box-shadow: 2px 2px #a9a2a2;
+        padding: 0px;
+    }
+
+    .download-button span{
+        display: none;
+    }
+    .download-button i{
+        display: inline;
+    }
+    
+    
 
 }
